@@ -1,0 +1,13 @@
+﻿{
+  "name" : "反豆瓣的猜",
+  "version" : "0.1",
+  "description" : "豆瓣猜直接跳转",
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://www.douban.com/*"
+  ]
+}
