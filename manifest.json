@@ -2,8 +2,9 @@
   "name" : "反豆瓣的猜",
   "version" : "0.1",
   "description" : "豆瓣猜直接跳转",
+  "manifest_version": 2,
   "background": {
-    "page": "background.html"
+     "scripts": ["bg.js"]
   },
   "permissions": [
         "webRequest",
